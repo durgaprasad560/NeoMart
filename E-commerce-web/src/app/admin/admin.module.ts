@@ -6,7 +6,7 @@ import { AdminComponent } from './admin.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { DemoAngularMaterailModule } from '../DemoAngularMaterialModule';
+import { DemoAngularMaterialModule } from '../DemoAngularMaterialModule';
 import { PostCategoryComponent } from './components/post-category/post-category.component';
 import { PostProductComponent } from './components/post-product/post-product.component';
 import { PostCouponComponent } from './components/post-coupon/post-coupon.component';
@@ -38,7 +38,7 @@ import { OrderByStatusComponent } from './components/analytics/order-by-status/o
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    DemoAngularMaterailModule
+    DemoAngularMaterialModule
   ]
 })
 export class AdminModule { }

@@ -72,7 +72,7 @@ export class PostProductComponent {
         }
       })
     }else{
-      for(const i in this.productForm.contains){
+      for(const i in this.productForm.controls){
         this.productForm.controls[i].markAsDirty();
         this.productForm.controls[i].updateValueAndValidity();
       }

@@ -6,7 +6,7 @@ import { CustomerComponent } from './customer.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { DemoAngularMaterailModule } from '../DemoAngularMaterialModule';
+import { DemoAngularMaterialModule } from '../DemoAngularMaterialModule';
 import { CartComponent } from './components/cart/cart.component';
 import { PlaceOrderComponent } from './components/place-order/place-order.component';
 import { MyOrdersComponent } from './components/my-orders/my-orders.component';
@@ -34,7 +34,7 @@ import { ViewWishlistComponent } from './components/view-wishlist/view-wishlist.
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    DemoAngularMaterailModule
+    DemoAngularMaterialModule
   ]
 })
 export class CustomerModule { }
